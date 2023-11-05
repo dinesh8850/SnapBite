@@ -1,0 +1,183 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+
+.nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0; 
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav .logo b{
+    color: #ff511c;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration:none ;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+/*==============Input==================*/
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.Login{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}.nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0; 
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav .logo b{
+    color: #ff511c;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration:none ;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+/*==============Input==================*/
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.Login{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #ffeae0;
+	font-size: 14px;
+}
+
+ .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(186, 23, 23, 0.853);
+	position: relative;
+	z-index: 1;
+}
+
+ .brand img {
+	width: 100%;
+}
+
+ .card-wrapper {
+	width: 400px;
+}
+
+ .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+ .card.fat {
+	padding: 10px;
+}
+
+ .card .card-title {
+	margin-bottom: 30px;
+}
+
+ .form-control {
+	border-width: 2.3px;
+}
+
+ .form-group label {
+	width: 100%;
+}
+
+ .btn.btn-block {
+	padding: 12px 10px;
+}
+
+ .footer {
+	margin: 40px 0;
+	color: orange;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	 .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	 .card.fat {
+		padding: 0;
+	}
+
+	.card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+.btn.btn-block{
+    background-color: #ff511c;
+}
+.float-right{
+    color: black;
+}
+.mt-4 a{
+    color: #ff511c;
+}
